@@ -1,4 +1,5 @@
 from django.db import models
+from users.models import User
 
 
 class Course(models.Model):
@@ -17,6 +18,11 @@ class Course(models.Model):
         upload_to='photo/course/',
         verbose_name='картинка',
     )
+    owner = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        verbose_name='Пользователь',
+    )
 
 
     class Meta:
@@ -24,7 +30,7 @@ class Course(models.Model):
         verbose_name_plural = 'Курсы'
 
     def __str__(self):
-        return self.title
+        return f'{self.title}, {self.owner}'
 
 
 class Lesson(models.Model):
@@ -58,6 +64,11 @@ class Lesson(models.Model):
         verbose_name='Ссылка на видео',
         help_text='Введите ссылку на видео',
     )
+    owner = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        verbose_name='Пользователь',
+    )
 
 
     class Meta:
@@ -65,4 +76,4 @@ class Lesson(models.Model):
         verbose_name_plural = 'Уроки'
 
     def __str__(self):
-        return self.title
+        return f'{self.title}, {self.owner}'

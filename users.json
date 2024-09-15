@@ -1,0 +1,86 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$nM9U4MCklCmtHiTFkmMTNl$UahUwOCoDN5rKDuIO3aEiJ/p5G8jLZ5ySChXnRPSEIQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-09-12T23:05:19Z",
+      "email": "kosyak1987@mail.ru",
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$JvQ3eeVRBaNUIGDgELB7Na$LC7EiLkl9Zjqg5+GD1KzAtir23/UnZCVgckYQmqgC5Q=",
+      "last_login": "2024-09-14T09:42:31.532Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-09-14T03:49:19.023Z",
+      "email": "admin@example.com",
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$rvjMO2CXSpCmh0uchQilHV$IuIoPsr2uivLou0/tEoDzQMQM0dXPsg+RDrlZ/e3muY=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-09-14T05:49:09Z",
+      "email": "user1@mail.ru",
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$djPa39BXRLMpP8eE2FmSJM$Y/xx+8IYOdHVQPxdpQgnoEO+bq2MWln2eCdSzBBhtaU=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-09-15T04:01:54.887Z",
+      "email": "user2@mail.ru",
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

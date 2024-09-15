@@ -1,0 +1,90 @@
+[
+  {
+    "model": "materials.course",
+    "pk": 7,
+    "fields": {
+      "title": "Математический",
+      "description": "Математика 4 класс",
+      "preview": "",
+      "owner": 1
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 8,
+    "fields": {
+      "title": "Химический",
+      "description": "прикладная Химия",
+      "preview": "",
+      "owner": 3
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 9,
+    "fields": {
+      "title": "Исторический курс",
+      "description": "История России",
+      "preview": "",
+      "owner": 4
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 10,
+    "fields": {
+      "title": "Курс Аналитики",
+      "description": "Аналитика всем нужна",
+      "preview": "",
+      "owner": 4
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 10,
+    "fields": {
+      "course": 7,
+      "title": "Арифметика",
+      "description": "вычисление",
+      "preview": "",
+      "video_link": null,
+      "owner": 1
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 11,
+    "fields": {
+      "course": 9,
+      "title": "Урок Истории",
+      "description": "про Русь",
+      "preview": "",
+      "video_link": null,
+      "owner": 3
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 12,
+    "fields": {
+      "course": 8,
+      "title": "Химия",
+      "description": "урок Химии",
+      "preview": "",
+      "video_link": null,
+      "owner": 3
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 13,
+    "fields": {
+      "course": 10,
+      "title": "Аналитика",
+      "description": "Начало Аналитического мышления",
+      "preview": "",
+      "video_link": null,
+      "owner": 4
+    }
+  }
+]
