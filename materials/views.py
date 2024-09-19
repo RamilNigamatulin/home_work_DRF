@@ -1,14 +1,21 @@
+from django.template.context_processors import request
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
-from rest_framework.generics import CreateAPIView, ListAPIView, RetrieveAPIView, UpdateAPIView, DestroyAPIView
-from materials.models import Course, Lesson
+from rest_framework.generics import CreateAPIView, ListAPIView, RetrieveAPIView, UpdateAPIView, DestroyAPIView, \
+    get_object_or_404
+from materials.models import Course, Lesson, Subscription
+from materials.paginators import MaterialsPaginator
 from materials.serializers import CourseSerializer, LessonSerializer, LessonDetailSerializer
 from users.permissions import IsModerators, IsOwner
+from rest_framework.views import APIView
+from rest_framework import status
 
 
 class CourseViewSet(ModelViewSet):
     queryset = Course.objects.all()
     serializer_class = CourseSerializer
+    pagination_class = MaterialsPaginator
 
     def get_permissions(self):
         if self.action == "create":
@@ -20,7 +27,7 @@ class CourseViewSet(ModelViewSet):
         return super().get_permissions()
 
     def perform_create(self, serializer):
-        "Привязываем текущего пользователя к создаваемому курсу."
+        """Привязываем текущего пользователя к создаваемому курсу."""
         serializer.save(owner=self.request.user)
 
 
@@ -31,13 +38,14 @@ class LessonCreateApiView(CreateAPIView):
 
 
     def perform_create(self, serializer):
-        "Привязываем текущего пользователя к создаваемому уроку."
+        """Привязываем текущего пользователя к создаваемому уроку."""
         serializer.save(owner=self.request.user)
 
 
 class LessonListApiView(ListAPIView):
     serializer_class = LessonSerializer
     permission_classes = (IsAuthenticated, IsModerators | IsOwner)
+    pagination_class = MaterialsPaginator
 
     def get_queryset(self):
         queryset = Lesson.objects.all()
@@ -89,3 +97,25 @@ class LessonDestroyApiView(DestroyAPIView):
 
         # Возвращаем отфильтрованный queryset
         return queryset
+
+
+class SubscriptionAPIView(APIView):
+
+    def post(self, request, *args, **kwargs):
+        user = request.user
+        course_id = request.data.get('course_id')
+        course = get_object_or_404(Course, id=course_id)
+
+        subs_item = Subscription.objects.filter(owner=user, course=course)
+
+        # Если подписка у пользователя на этот курс есть - удаляем ее
+        if subs_item.exists():
+            subs_item.delete()
+            is_subscribed = False
+        # Если подписки у пользователя на этот курс нет - создаем ее
+        else:
+            Subscription.objects.create(owner=user, course=course)
+            is_subscribed = True
+
+        # Возвращаем ответ в API с булевым значением
+        return Response({"is_subscribed": is_subscribed}, status=status.HTTP_200_OK)

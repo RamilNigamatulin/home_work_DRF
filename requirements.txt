@@ -5,3 +5,4 @@ python-dotenv==1.0.1
 django-filter==24.3
 djangorestframework-simplejwt==5.3.1
 ipython==8.27.0
+coverage==7.6.1
