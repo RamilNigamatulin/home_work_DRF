@@ -8,12 +8,16 @@ class Payments(models.Model):
         User,
         on_delete=models.CASCADE,
         verbose_name='Пользователь',
+        help_text='Пользователь, который оплатил',
+        blank=True,
+        null=True,
     )
     date = models.DateTimeField(
         verbose_name='Дата оплаты',
         auto_now_add=True,
         blank=True,
         null=True,
+        help_text='Дата создания платежа',
     )
     course = models.ForeignKey(
         Course,
@@ -21,6 +25,7 @@ class Payments(models.Model):
         verbose_name='Оплаченный курс',
         blank=True,
         null=True,
+        help_text='Курс, который был оплачен',
     )
     lesson = models.ForeignKey(
         Lesson,
@@ -28,11 +33,11 @@ class Payments(models.Model):
         verbose_name='Оплаченный урок',
         blank=True,
         null=True,
+        help_text='Урок, который был оплачен',
     )
-    payment_amount = models.DecimalField(
+    payment_amount = models.PositiveIntegerField(
         verbose_name='Сумма оплаты',
-        max_digits=10,
-        decimal_places=2,
+        help_text='Сумма оплаты в рублях',
     )
     payment_method = models.CharField(
         verbose_name='Способ оплаты',
@@ -40,9 +45,25 @@ class Payments(models.Model):
         choices=[
             ('cash', 'Наличные'),
             ('transfer', 'Перевод на счет')
-        ]
+        ],
+        help_text='Выберите способ оплаты',
+        blank=True,
+        null=True,
     )
-
+    session_id = models.CharField(
+        verbose_name='ID сессии',
+        max_length=255,
+        help_text='Идентификатор сессии платежа',
+        blank=True,
+        null=True,
+    )
+    link = models.URLField(
+        verbose_name='Ссылка на оплату',
+        max_length=400,
+        help_text='Ссылка на страницу оплаты',
+        blank=True,
+        null=True,
+    )
 
     class Meta:
         verbose_name = 'Платеж'
