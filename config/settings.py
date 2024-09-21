@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'rest_framework_simplejwt',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -141,3 +142,4 @@ SIMPLE_JWT = {
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
 }
 
+STRIPE_APY_KEY = "sk_test_51Q12dX2N8K7RUxVbQCMrINHisYMa0lcLT080NWnWsTzoanTySC9MgRlrqT3YNmADldXtnKr6K5X2SeiT7KurUTDK00hhKfHaLo"
