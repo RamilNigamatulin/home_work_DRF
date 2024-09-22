@@ -6,7 +6,8 @@ from payments.serializers import PaymentsSerializer
 from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
 
-from payments.services import create_stripe_session, create_stripe_price #convert_rub_to_dollars,
+from payments.services import create_stripe_session, create_stripe_price, \
+    create_stripe_product  # convert_rub_to_dollars,
 
 
 class PaymentsListAPIView(ListAPIView):
@@ -14,7 +15,7 @@ class PaymentsListAPIView(ListAPIView):
     serializer_class = PaymentsSerializer
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter]
     ordering_fields = ('date',)
-    filterset_fields = ('course', 'lesson', 'payment_method')
+    filterset_fields = ('id', 'course', 'lesson', 'payment_method')
 
 
 class PaymentsCreateAPIView(CreateAPIView):
@@ -23,10 +24,9 @@ class PaymentsCreateAPIView(CreateAPIView):
 
     def perform_create(self, serializer):
         payment = serializer.save(owner=self.request.user)
-        #amount_in_dollars = convert_rub_to_dollars(payment.payment_amount)
-        # price = create_stripe_price(amount_in_dollars)
-        price = create_stripe_price(payment.payment_amount)
-        session_id, payment_link = create_stripe_session(price)
+        product = create_stripe_product(payment.course)
+        price = create_stripe_price(product.id, payment.payment_amount)
+        session_id, payment_link = create_stripe_session(price.id)
         payment.session_id = session_id
         payment.link = payment_link
         payment.save()

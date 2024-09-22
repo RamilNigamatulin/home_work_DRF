@@ -7,4 +7,4 @@ from payments.models import Payments
 class PaymentsSerializer(ModelSerializer):
     class Meta:
         model = Payments
-        fields = '__all__'
+        fields = ('owner', 'course', 'lesson', 'payment_amount', 'payment_method', 'session_id', 'link',)

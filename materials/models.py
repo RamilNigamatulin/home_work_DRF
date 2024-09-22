@@ -11,6 +11,8 @@ class Course(models.Model):
     description = models.TextField(
         verbose_name='Описание курса',
         help_text='Введите описание курса',
+        blank=True,
+        null=True,
     )
     preview = models.ImageField(
         blank=True,
@@ -50,6 +52,8 @@ class Lesson(models.Model):
     description = models.TextField(
         verbose_name='Описание урока',
         help_text='Введите описание урока',
+        blank=True,
+        null=True,
     )
     preview = models.ImageField(
         blank=True,
