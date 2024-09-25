@@ -10,6 +10,7 @@ from materials.serializers import CourseSerializer, LessonSerializer, LessonDeta
 from users.permissions import IsModerators, IsOwner
 from rest_framework.views import APIView
 from rest_framework import status
+from materials.tasks import information_subscription_off, information_subscription_on
 
 
 class CourseViewSet(ModelViewSet):
@@ -111,11 +112,16 @@ class SubscriptionAPIView(APIView):
         # Если подписка у пользователя на этот курс есть - удаляем ее
         if subs_item.exists():
             subs_item.delete()
-            is_subscribed = False
+            # is_subscribed = False
+            message = "подписка удалена"
+            information_subscription_off.delay(email=user.email, course_title=course.title)
+
         # Если подписки у пользователя на этот курс нет - создаем ее
         else:
             Subscription.objects.create(owner=user, course=course)
-            is_subscribed = True
+            # is_subscribed = True
+            message = "подписка добавлена"
+            information_subscription_on.delay(email=user.email, course_title=course.title)
 
         # Возвращаем ответ в API с булевым значением
-        return Response({"is_subscribed": is_subscribed}, status=status.HTTP_200_OK)
+        return Response({"message":message}, status=status.HTTP_200_OK)

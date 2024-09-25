@@ -1,1 +1,786 @@
-[{"model": "payments.payments", "pk": 1, "fields": {"owner": 1, "date": "2024-09-15T05:37:23.612Z", "course": 7, "lesson": 10, "payment_amount": 1000, "payment_method": "cash", "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 2, "fields": {"owner": 3, "date": "2024-09-15T05:37:37.757Z", "course": 8, "lesson": 12, "payment_amount": 12, "payment_method": "transfer", "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 3, "fields": {"owner": 4, "date": "2024-09-15T05:38:01.482Z", "course": 9, "lesson": 11, "payment_amount": 788, "payment_method": "transfer", "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 4, "fields": {"owner": 4, "date": "2024-09-21T04:38:50.348Z", "course": null, "lesson": null, "payment_amount": 1000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 5, "fields": {"owner": 4, "date": "2024-09-21T04:44:09.516Z", "course": null, "lesson": null, "payment_amount": 1000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 6, "fields": {"owner": 4, "date": "2024-09-21T04:47:24.166Z", "course": null, "lesson": null, "payment_amount": 1000, "payment_method": null, "session_id": "cs_test_a13n831xHIgYUQm8GSHYLFnO5YYVE9jfY0WmZ607Mnpn7n4keFSyAdHCz2", "link": "https://checkout.stripe.com/c/pay/cs_test_a13n831xHIgYUQm8GSHYLFnO5YYVE9jfY0WmZ607Mnpn7n4keFSyAdHCz2#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"}}, {"model": "payments.payments", "pk": 7, "fields": {"owner": 4, "date": "2024-09-21T05:01:16.433Z", "course": null, "lesson": null, "payment_amount": 2000, "payment_method": null, "session_id": "cs_test_a1LCgHOFaM9AjJd1XbxOiZe9nluxF8O8jd8nvzvTS1mlOuWxPmiTs3GpO9", "link": "https://checkout.stripe.com/c/pay/cs_test_a1LCgHOFaM9AjJd1XbxOiZe9nluxF8O8jd8nvzvTS1mlOuWxPmiTs3GpO9#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"}}, {"model": "payments.payments", "pk": 8, "fields": {"owner": 4, "date": "2024-09-21T05:45:08.049Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 9, "fields": {"owner": 4, "date": "2024-09-21T05:47:22.769Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 10, "fields": {"owner": 4, "date": "2024-09-21T05:47:26.056Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 11, "fields": {"owner": 4, "date": "2024-09-21T05:54:00.746Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 12, "fields": {"owner": 4, "date": "2024-09-21T05:55:57.616Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 13, "fields": {"owner": 4, "date": "2024-09-21T05:56:33.638Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 14, "fields": {"owner": 4, "date": "2024-09-21T05:56:41.321Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 15, "fields": {"owner": 4, "date": "2024-09-21T05:59:15.471Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 16, "fields": {"owner": 4, "date": "2024-09-21T06:00:05.126Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 17, "fields": {"owner": 4, "date": "2024-09-21T06:04:47.142Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 18, "fields": {"owner": 4, "date": "2024-09-21T06:05:28.886Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 19, "fields": {"owner": 4, "date": "2024-09-21T06:06:54.799Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 20, "fields": {"owner": 4, "date": "2024-09-22T10:31:19.652Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 21, "fields": {"owner": 4, "date": "2024-09-22T10:58:17.473Z", "course": 7, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 22, "fields": {"owner": 4, "date": "2024-09-22T10:58:24.540Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 23, "fields": {"owner": 4, "date": "2024-09-22T11:05:17.971Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 24, "fields": {"owner": 4, "date": "2024-09-22T11:10:21.137Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 25, "fields": {"owner": 4, "date": "2024-09-22T11:16:04.368Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 26, "fields": {"owner": 4, "date": "2024-09-22T11:16:15.270Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 27, "fields": {"owner": 4, "date": "2024-09-22T11:22:04.802Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 28, "fields": {"owner": 4, "date": "2024-09-22T11:22:23.744Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 29, "fields": {"owner": 4, "date": "2024-09-22T11:23:21.660Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 30, "fields": {"owner": 4, "date": "2024-09-22T11:26:45.515Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 31, "fields": {"owner": 4, "date": "2024-09-22T11:28:21.061Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 32, "fields": {"owner": 4, "date": "2024-09-22T11:47:52.342Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 33, "fields": {"owner": 4, "date": "2024-09-22T11:48:18.866Z", "course": 7, "lesson": 10, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 34, "fields": {"owner": 4, "date": "2024-09-22T11:48:28.041Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 35, "fields": {"owner": 4, "date": "2024-09-22T11:48:32.291Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 36, "fields": {"owner": 4, "date": "2024-09-22T11:48:39.137Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 37, "fields": {"owner": 4, "date": "2024-09-22T11:49:48.821Z", "course": null, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 38, "fields": {"owner": 4, "date": "2024-09-22T11:50:06.109Z", "course": 10, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 39, "fields": {"owner": 4, "date": "2024-09-22T11:54:07.549Z", "course": 10, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 40, "fields": {"owner": 4, "date": "2024-09-22T11:54:46.495Z", "course": 10, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 41, "fields": {"owner": 4, "date": "2024-09-22T11:55:13.589Z", "course": 10, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 42, "fields": {"owner": 4, "date": "2024-09-22T11:55:19.395Z", "course": 10, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 43, "fields": {"owner": 4, "date": "2024-09-22T12:09:03.577Z", "course": 10, "lesson": null, "payment_amount": 3000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 44, "fields": {"owner": 4, "date": "2024-09-22T12:12:30.989Z", "course": 7, "lesson": 10, "payment_amount": 1000, "payment_method": "transfer", "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 45, "fields": {"owner": 4, "date": "2024-09-22T12:13:09.839Z", "course": 7, "lesson": 10, "payment_amount": 1000, "payment_method": "transfer", "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 46, "fields": {"owner": 4, "date": "2024-09-22T12:13:47.675Z", "course": 7, "lesson": 10, "payment_amount": 1000, "payment_method": "transfer", "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 47, "fields": {"owner": 4, "date": "2024-09-22T12:14:44.221Z", "course": 7, "lesson": 10, "payment_amount": 1000, "payment_method": "transfer", "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 48, "fields": {"owner": 4, "date": "2024-09-22T12:15:04.436Z", "course": 7, "lesson": 10, "payment_amount": 1000, "payment_method": "transfer", "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 49, "fields": {"owner": 4, "date": "2024-09-22T12:15:25.601Z", "course": 7, "lesson": 10, "payment_amount": 1000, "payment_method": "transfer", "session_id": "cs_test_a1xawLLJVwN9GIcet9zmBzhn4dFu1LpguK0hSpxTeJxmXyLTrzuzZ67bGT", "link": "https://checkout.stripe.com/c/pay/cs_test_a1xawLLJVwN9GIcet9zmBzhn4dFu1LpguK0hSpxTeJxmXyLTrzuzZ67bGT#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"}}, {"model": "payments.payments", "pk": 50, "fields": {"owner": 4, "date": "2024-09-22T12:16:45.583Z", "course": 7, "lesson": null, "payment_amount": 1000, "payment_method": "transfer", "session_id": "cs_test_a1488vpG6CDEFNujFHrXiNaWulJ6GpPBQbDssDPpjogbF9Rhq2q65rjQsE", "link": "https://checkout.stripe.com/c/pay/cs_test_a1488vpG6CDEFNujFHrXiNaWulJ6GpPBQbDssDPpjogbF9Rhq2q65rjQsE#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"}}, {"model": "payments.payments", "pk": 51, "fields": {"owner": 4, "date": "2024-09-22T12:16:54.720Z", "course": 7, "lesson": null, "payment_amount": 1000, "payment_method": "transfer", "session_id": "cs_test_a1VlcqEReJ0SQYfc2srLa3VqdZU5uOU2atONAfxseMDUgagCgCCuuBgTNN", "link": "https://checkout.stripe.com/c/pay/cs_test_a1VlcqEReJ0SQYfc2srLa3VqdZU5uOU2atONAfxseMDUgagCgCCuuBgTNN#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"}}, {"model": "payments.payments", "pk": 52, "fields": {"owner": 4, "date": "2024-09-22T12:17:08.227Z", "course": 8, "lesson": null, "payment_amount": 1000, "payment_method": "transfer", "session_id": "cs_test_a1z8ahqmhVYu5L1c5jKvxSWFreHybqmjiuExH4ySdJrVvdThiDAC5iBpOx", "link": "https://checkout.stripe.com/c/pay/cs_test_a1z8ahqmhVYu5L1c5jKvxSWFreHybqmjiuExH4ySdJrVvdThiDAC5iBpOx#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"}}, {"model": "payments.payments", "pk": 53, "fields": {"owner": 4, "date": "2024-09-22T12:17:46.785Z", "course": 8, "lesson": null, "payment_amount": 1000, "payment_method": null, "session_id": "cs_test_a168q679DmVgjt3GzSusCqKf928sUe4J72oxkLsqlrPsMFECrWYsc9oulE", "link": "https://checkout.stripe.com/c/pay/cs_test_a168q679DmVgjt3GzSusCqKf928sUe4J72oxkLsqlrPsMFECrWYsc9oulE#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"}}, {"model": "payments.payments", "pk": 54, "fields": {"owner": 4, "date": "2024-09-22T12:18:04.916Z", "course": null, "lesson": 10, "payment_amount": 1000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 55, "fields": {"owner": 4, "date": "2024-09-22T12:18:11.210Z", "course": null, "lesson": 10, "payment_amount": 1000, "payment_method": null, "session_id": null, "link": null}}, {"model": "payments.payments", "pk": 56, "fields": {"owner": 4, "date": "2024-09-22T12:21:42.291Z", "course": 8, "lesson": null, "payment_amount": 2000, "payment_method": null, "session_id": "cs_test_a1XXCh3yG1V64fEP5zJ9wpweQt1u3Jr4kBwwStklC6ByBalNOwYK5Ci9Ei", "link": "https://checkout.stripe.com/c/pay/cs_test_a1XXCh3yG1V64fEP5zJ9wpweQt1u3Jr4kBwwStklC6ByBalNOwYK5Ci9Ei#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"}}]
+[
+  {
+    "model": "payments.payments",
+    "pk": 1,
+    "fields": {
+      "owner": 1,
+      "date": "2024-09-15T05:37:23.612Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 1000,
+      "payment_method": "cash",
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 2,
+    "fields": {
+      "owner": 3,
+      "date": "2024-09-15T05:37:37.757Z",
+      "course": 8,
+      "lesson": 12,
+      "payment_amount": 12,
+      "payment_method": "transfer",
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 3,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-15T05:38:01.482Z",
+      "course": 9,
+      "lesson": 11,
+      "payment_amount": 788,
+      "payment_method": "transfer",
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 4,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T04:38:50.348Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 1000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 5,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T04:44:09.516Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 1000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 6,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T04:47:24.166Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 1000,
+      "payment_method": null,
+      "session_id": "cs_test_a13n831xHIgYUQm8GSHYLFnO5YYVE9jfY0WmZ607Mnpn7n4keFSyAdHCz2",
+      "link": "https://checkout.stripe.com/c/pay/cs_test_a13n831xHIgYUQm8GSHYLFnO5YYVE9jfY0WmZ607Mnpn7n4keFSyAdHCz2#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 7,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T05:01:16.433Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 2000,
+      "payment_method": null,
+      "session_id": "cs_test_a1LCgHOFaM9AjJd1XbxOiZe9nluxF8O8jd8nvzvTS1mlOuWxPmiTs3GpO9",
+      "link": "https://checkout.stripe.com/c/pay/cs_test_a1LCgHOFaM9AjJd1XbxOiZe9nluxF8O8jd8nvzvTS1mlOuWxPmiTs3GpO9#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 8,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T05:45:08.049Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 9,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T05:47:22.769Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 10,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T05:47:26.056Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 11,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T05:54:00.746Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 12,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T05:55:57.616Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 13,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T05:56:33.638Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 14,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T05:56:41.321Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 15,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T05:59:15.471Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 16,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T06:00:05.126Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 17,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T06:04:47.142Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 18,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T06:05:28.886Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 19,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-21T06:06:54.799Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 20,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T10:31:19.652Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 21,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T10:58:17.473Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 22,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T10:58:24.540Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 23,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:05:17.971Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 24,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:10:21.137Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 25,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:16:04.368Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 26,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:16:15.270Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 27,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:22:04.802Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 28,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:22:23.744Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 29,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:23:21.660Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 30,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:26:45.515Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 31,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:28:21.061Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 32,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:47:52.342Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 33,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:48:18.866Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 34,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:48:28.041Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 35,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:48:32.291Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 36,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:48:39.137Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 37,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:49:48.821Z",
+      "course": null,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 38,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:50:06.109Z",
+      "course": 10,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 39,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:54:07.549Z",
+      "course": 10,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 40,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:54:46.495Z",
+      "course": 10,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 41,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:55:13.589Z",
+      "course": 10,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 42,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T11:55:19.395Z",
+      "course": 10,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 43,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:09:03.577Z",
+      "course": 10,
+      "lesson": null,
+      "payment_amount": 3000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 44,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:12:30.989Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 1000,
+      "payment_method": "transfer",
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 45,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:13:09.839Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 1000,
+      "payment_method": "transfer",
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 46,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:13:47.675Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 1000,
+      "payment_method": "transfer",
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 47,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:14:44.221Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 1000,
+      "payment_method": "transfer",
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 48,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:15:04.436Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 1000,
+      "payment_method": "transfer",
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 49,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:15:25.601Z",
+      "course": 7,
+      "lesson": 10,
+      "payment_amount": 1000,
+      "payment_method": "transfer",
+      "session_id": "cs_test_a1xawLLJVwN9GIcet9zmBzhn4dFu1LpguK0hSpxTeJxmXyLTrzuzZ67bGT",
+      "link": "https://checkout.stripe.com/c/pay/cs_test_a1xawLLJVwN9GIcet9zmBzhn4dFu1LpguK0hSpxTeJxmXyLTrzuzZ67bGT#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 50,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:16:45.583Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 1000,
+      "payment_method": "transfer",
+      "session_id": "cs_test_a1488vpG6CDEFNujFHrXiNaWulJ6GpPBQbDssDPpjogbF9Rhq2q65rjQsE",
+      "link": "https://checkout.stripe.com/c/pay/cs_test_a1488vpG6CDEFNujFHrXiNaWulJ6GpPBQbDssDPpjogbF9Rhq2q65rjQsE#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 51,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:16:54.720Z",
+      "course": 7,
+      "lesson": null,
+      "payment_amount": 1000,
+      "payment_method": "transfer",
+      "session_id": "cs_test_a1VlcqEReJ0SQYfc2srLa3VqdZU5uOU2atONAfxseMDUgagCgCCuuBgTNN",
+      "link": "https://checkout.stripe.com/c/pay/cs_test_a1VlcqEReJ0SQYfc2srLa3VqdZU5uOU2atONAfxseMDUgagCgCCuuBgTNN#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 52,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:17:08.227Z",
+      "course": 8,
+      "lesson": null,
+      "payment_amount": 1000,
+      "payment_method": "transfer",
+      "session_id": "cs_test_a1z8ahqmhVYu5L1c5jKvxSWFreHybqmjiuExH4ySdJrVvdThiDAC5iBpOx",
+      "link": "https://checkout.stripe.com/c/pay/cs_test_a1z8ahqmhVYu5L1c5jKvxSWFreHybqmjiuExH4ySdJrVvdThiDAC5iBpOx#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 53,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:17:46.785Z",
+      "course": 8,
+      "lesson": null,
+      "payment_amount": 1000,
+      "payment_method": null,
+      "session_id": "cs_test_a168q679DmVgjt3GzSusCqKf928sUe4J72oxkLsqlrPsMFECrWYsc9oulE",
+      "link": "https://checkout.stripe.com/c/pay/cs_test_a168q679DmVgjt3GzSusCqKf928sUe4J72oxkLsqlrPsMFECrWYsc9oulE#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 54,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:18:04.916Z",
+      "course": null,
+      "lesson": 10,
+      "payment_amount": 1000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 55,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:18:11.210Z",
+      "course": null,
+      "lesson": 10,
+      "payment_amount": 1000,
+      "payment_method": null,
+      "session_id": null,
+      "link": null
+    }
+  },
+  {
+    "model": "payments.payments",
+    "pk": 56,
+    "fields": {
+      "owner": 4,
+      "date": "2024-09-22T12:21:42.291Z",
+      "course": 8,
+      "lesson": null,
+      "payment_amount": 2000,
+      "payment_method": null,
+      "session_id": "cs_test_a1XXCh3yG1V64fEP5zJ9wpweQt1u3Jr4kBwwStklC6ByBalNOwYK5Ci9Ei",
+      "link": "https://checkout.stripe.com/c/pay/cs_test_a1XXCh3yG1V64fEP5zJ9wpweQt1u3Jr4kBwwStklC6ByBalNOwYK5Ci9Ei#fidkdWxOYHwnPyd1blpxYHZxWjA0VDQ3YV03Sz1OMldQfVNndmxEYmlBPWxQf2pjbmhcbTFRQ2N2aDRfaVE0Y281T3ZrNkJ8VUZNTHI2a2BCUDdWTTFoQFVncVIyXUNnY2I0NHBRSX9BQ2FXNTVxY2JHcEJGPScpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+  }
+]
