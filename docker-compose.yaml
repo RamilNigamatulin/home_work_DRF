@@ -1,0 +1,47 @@
+services:
+  redis:
+    image: redis:latest
+    restart: on-failure
+
+  db:
+    image: postgres
+    restart: on-failure
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+  app:
+    build: .
+    tty: true
+    command: python manage.py runserver 0.0.0.0:8000 && python manage.py migrate
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  celery:
+    build: .
+    tty: true
+    command: celery -A config worker -l INFO
+    restart: on-failure
+    volumes:
+      -  .:/app
+    depends_on:
+      - redis
+      - db
+      - app
+
+  celery-beat:
+    build: .
+    tty: true
+    command: celery -A config beat -l INFO
+    restart: on-failure
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+      - db
+      - app
+
+volumes:
+  pg_data:
