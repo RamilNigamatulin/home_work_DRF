@@ -2,7 +2,7 @@ import os.path
 from datetime import timedelta
 from pathlib import Path
 
-from django.conf.global_settings import AUTH_USER_MODEL
+#from django.conf.global_settings import AUTH_USER_MODEL
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'home_work_DRF',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': '12051993',
-        'HOST': 'localhost',
+        'PASSWORD': 'mysecretpassword',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }
@@ -146,8 +146,8 @@ SIMPLE_JWT = {
 STRIPE_APY_KEY = "sk_test_51Q12dX2N8K7RUxVbQCMrINHisYMa0lcLT080NWnWsTzoanTySC9MgRlrqT3YNmADldXtnKr6K5X2SeiT7KurUTDK00hhKfHaLo"
 
 
-CELERY_BROKER_URL = 'redis://localhost:6379/0'
-CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+CELERY_BROKER_URL = 'redis://redis:6379/0'
+CELERY_RESULT_BACKEND = 'redis://redis:6379/0'
 
 CELERY_TIMEZONE = TIME_ZONE
 CELERY_TASK_TRACK_STARTED = True

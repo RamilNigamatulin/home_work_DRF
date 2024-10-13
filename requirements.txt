@@ -11,6 +11,6 @@ stripe==10.12.0
 celery==5.4.0
 redis==5.0.8
 django-celery-beat==2.7.0
-#forex-python==1.8
-
-
+forex-python==1.8
+pillow==10.4.0
+setuptools
